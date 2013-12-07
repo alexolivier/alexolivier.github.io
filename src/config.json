@@ -6,7 +6,8 @@
     "description": "Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "wintersmith-sass"
   ],
   "require": {
     "moment": "moment",
