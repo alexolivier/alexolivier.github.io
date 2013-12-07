@@ -1,4 +1,4 @@
-alexolivier.github.io
-=====================
 
-My home on the internet
+# Blog
+
+The default [wintersmith](https://github.com/jnordberg/wintersmith) template
