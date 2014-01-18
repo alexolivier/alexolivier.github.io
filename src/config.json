@@ -3,7 +3,7 @@
     "url": "http://blog.alexolivier.me",
     "name": "Alex Olivier",
     "owner": "Alex Olivier",
-    "description": "Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie"
+    "description": "Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie, now startup Javascript guy at Qubit"
   },
   "plugins": [
     "./plugins/paginator.coffee",
