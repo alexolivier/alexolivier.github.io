@@ -6,7 +6,7 @@ date: 2014-01-18
 template: article.jade
 ---
 
-In 5 days, I am moving to New York! [Qubit](http://www.qubitproducts.com), the startup I work for, currently has a [sales office in Manhatten](http://www.qubitproducts.com/contact), and I have being sent over there to setup the client engineering team.
+In 5 days, I am moving to New York! [Qubit](http://www.qubitproducts.com), the startup I work for, currently has a [sales office in Manhattan](http://www.qubitproducts.com/contact), and I have being sent over there to setup the client engineering team.
 
 It will only be for a few months, but quite a scary prospect when I come to think of it. I will be responsible for doing technical pre-sales work, dealing our US clients, interviewing, hiring a training of engineers, aswell as keeping up with some of my current UK based clients.
 
