@@ -5,9 +5,22 @@
     <atom:link href="http://blog.alexolivier.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://blog.alexolivier.me</link>
     <description>Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie</description>
-    <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Start spreading the news...</title>
+      <link>http://blog.alexolivier.me/articles/new-york/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://blog.alexolivier.me/articles/new-york/</guid>
+      <author></author>
+      <description>&lt;p&gt;In 5 days, I am moving to New York! &lt;a href=&quot;http://www.qubitproducts.com/&quot;&gt;Qubit&lt;/a&gt;, the startup I work for, currently has a &lt;a href=&quot;http://www.qubitproducts.com/contact&quot;&gt;sales office in Manhatten&lt;/a&gt;, and I have being sent over there to setup the client engineering team.&lt;/p&gt;
+&lt;p&gt;It will only be for a few months, but quite a scary prospect when I come to think of it. I will be responsible for doing technical pre-sales work, dealing our US clients, interviewing, hiring a training of engineers, aswell as keeping up with some of my current UK based clients.&lt;/p&gt;
+&lt;p&gt;As for living, I’ve &lt;a href=&quot;http://www.airbnb.co.uk/rooms/1673289&quot;&gt;found a really nice&lt;/a&gt; one bed apartment in Chelsea that is only 4 blocks from our office. This has been my first time using &lt;a href=&quot;http://airbnb.co.uk/&quot;&gt;AirBnB&lt;/a&gt; and so far the process has been OK - the first place I tried fell through, but hopefully this will all be sorted now.&lt;/p&gt;
+&lt;p&gt;As our CTO pointed out to me, this thing only really happens in startups…and I’ve only been at Qubit since August!&lt;/p&gt;
+&lt;p&gt;Fun times!&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>I will get the hang of this blogging thing....</title>
       <link>http://blog.alexolivier.me/articles/hello-world/</link>

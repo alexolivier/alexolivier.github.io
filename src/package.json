@@ -3,8 +3,7 @@
     "moment": "2.3.x",
     "underscore": "1.4.x",
     "typogr": "0.5.x",
-    "wintersmith-node-sass": "~0.1.0",
-    "wintersmith-less": "~0.2.1"
+    "wintersmith-sass": "~0.2.2"
   },
   "repository": "none"
 }

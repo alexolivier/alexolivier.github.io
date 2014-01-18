@@ -1,6 +1,7 @@
 ---
 title: I will get the hang of this blogging thing....
 author: alexolivier
+intro: I have never been good at blogging, but hopefully this will get me started on a good trend
 date: 2013-12-07
 template: article.jade
 ---
