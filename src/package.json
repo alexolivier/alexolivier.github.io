@@ -5,5 +5,12 @@
     "typogr": "0.5.x",
     "wintersmith-sass": "~0.2.2"
   },
-  "repository": "none"
+  "repository": "none",
+  "devDependencies": {
+    "grunt-wintersmith": "0.0.2",
+    "grunt": "~0.4.2",
+    "grunt-contrib-imagemin": "~0.5.0",
+    "grunt-responsive-images": "~0.1.1",
+    "grunt-contrib-clean": "~0.5.0"
+  }
 }
