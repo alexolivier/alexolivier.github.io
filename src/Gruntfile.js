@@ -55,7 +55,7 @@ module.exports = function(grunt) {
       options: {
         force: true
       },
-      stuff: ["../**", "!../src", "!../CNAME"]
+      stuff: ["../**/*", "!../src/**", "!../CNAME"]
     }
   });
 
