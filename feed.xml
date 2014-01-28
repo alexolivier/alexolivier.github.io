@@ -4,14 +4,14 @@
     <title>Alex Olivier</title>
     <atom:link href="http://blog.alexolivier.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://blog.alexolivier.me</link>
-    <description>Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie</description>
-    <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+    <description>Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie, now startup Javascript guy at Qubit</description>
+    <pubDate>Fri, 17 Jan 2014 19:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>Start spreading the news...</title>
       <link>http://blog.alexolivier.me/articles/new-york/</link>
-      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jan 2014 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://blog.alexolivier.me/articles/new-york/</guid>
       <author></author>
       <description>&lt;p&gt;In 5 days, I am moving to New York! &lt;a href=&quot;http://www.qubitproducts.com/&quot;&gt;Qubit&lt;/a&gt;, the startup I work for, currently has a &lt;a href=&quot;http://www.qubitproducts.com/contact&quot;&gt;sales office in Manhattan&lt;/a&gt;, and I have being sent over there to setup the client engineering team.&lt;/p&gt;
@@ -24,7 +24,7 @@
     <item>
       <title>I will get the hang of this blogging thing....</title>
       <link>http://blog.alexolivier.me/articles/hello-world/</link>
-      <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Dec 2013 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://blog.alexolivier.me/articles/hello-world/</guid>
       <author></author>
       <description>&lt;p&gt;Welcome to my new blog! I have tried to do this blogging so many times in the past, but never really got anywhere with it….lets see what happens this time!…maybe.&lt;/p&gt;

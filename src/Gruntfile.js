@@ -31,6 +31,7 @@ module.exports = function(grunt) {
     responsive_images: {
       build: {
         options: {
+          force: true,
           separator: '.',
           sizes: [{
             name: '320',
@@ -45,9 +46,7 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: '../articles',
-          src: ['**/*.{jpg,gif,png}','!src'],
-          dest: '../articles'
+          src: ['../articles/**/*.{jpg,gif,png}','!src']
         }]
       }
     },
@@ -55,7 +54,7 @@ module.exports = function(grunt) {
       options: {
         force: true
       },
-      stuff: ["../**/*", "!../src/**", "!../CNAME"]
+      stuff: ["../**", "!../src/**", "!../CNAME"]
     }
   });
 
