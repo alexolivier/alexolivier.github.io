@@ -10,7 +10,7 @@ In 5 days, I am moving to New York! [Qubit](http://www.qubitproducts.com), the s
 
 It will only be for a few months, but quite a scary prospect when I come to think of it. I will be responsible for doing technical pre-sales work, dealing our US clients, interviewing, hiring a training of engineers, aswell as keeping up with some of my current UK based clients.
 
-As for living, I've [found a really nice](http://www.airbnb.co.uk/rooms/1673289) one bed apartment in Chelsea that is only 4 blocks from our office. This has been my first time using [AirBnB](http://airbnb.co.uk) and so far the process has been OK - the first place I tried fell through, but hopefully this will all be sorted now.
+As for living, I've found a really nice one bed apartment near Union Square that is only 7 blocks from our office. This has been my first time using [AirBnB](http://airbnb.co.uk) and so far the process has been OK - the first place I tried fell through, but hopefully this will all be sorted now.
 
 As our CTO pointed out to me, this thing only really happens in startups...and I've only been at Qubit since August!
 

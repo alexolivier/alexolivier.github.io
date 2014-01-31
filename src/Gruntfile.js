@@ -29,9 +29,11 @@ module.exports = function(grunt) {
       }
     },
     responsive_images: {
+      options:{
+        force:true
+      },
       build: {
         options: {
-          force: true,
           separator: '.',
           sizes: [{
             name: '320',
@@ -65,6 +67,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('default', ['wintersmith:preview']);
-  grunt.registerTask('build', ['clean:stuff', 'wintersmith:build', 'responsive_images:build', 'imagemin']);
+  grunt.registerTask('build', ['clean:stuff', 'wintersmith:build', 'imagemin']);
 
 };
