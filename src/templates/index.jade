@@ -1,5 +1,12 @@
 extends layout
 
+block metatags
+  meta(property='og:title', content=locals.name)
+  meta(property='og:type', content='website')
+  meta(property='og:description', content=locals.description)
+  meta(property='og:url', content=locals.url)
+  meta(property='og:image' content=locals.profileImage)
+
 block content
   include author
   each article in articles
