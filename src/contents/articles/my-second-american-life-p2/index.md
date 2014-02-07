@@ -1,7 +1,7 @@
 ---
 title: My Second American Life - Part 2
 author: alexolivier
-intro: Week two
+intro: After being here for nearly 2 weeks now, a few more things have distracted me from the day to day.
 date: 2014-02-06
 template: article.jade
 ---
