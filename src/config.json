@@ -1,10 +1,14 @@
 {
   "locals": {
     "url": "http://blog.alexolivier.me",
+    "domain": "alexolivier.me",
     "name": "Alex Olivier",
     "owner": "Alex Olivier",
-    "profileImage":"http://www.gravatar.com/avatar/3ddb877bbf0eea8e808df46f198a9b89.jpg",
-    "description": "Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie, now startup Javascript guy at Qubit"
+    "profileImage": "http://www.gravatar.com/avatar/3ddb877bbf0eea8e808df46f198a9b89.jpg",
+    "description": "Lover of technology, Editor of It's Kinda Cool, and follower of all sorts of geekery! Former Microsoftie, now startup Javascript guy at Qubit",
+    "social": {
+      "twitter": "alexolivier"
+    }
   },
   "plugins": [
     "./plugins/paginator.coffee",

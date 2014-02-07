@@ -6,6 +6,13 @@ block metatags
   meta(property='og:description', content=locals.description)
   meta(property='og:url', content=locals.url)
   meta(property='og:image' content=locals.profileImage)
+  meta(name='twitter:card', content='summary')
+  meta(name='twitter:site', content='@'+locals.social.twitter)
+  meta(name='twitter:title', content=locals.name)
+  meta(name='twitter:description', content=locals.description)
+  meta(name='twitter:creator', content='@'+locals.social.twitter)
+  meta(name='twitter:image:src', content=locals.profileImage)
+  meta(name='twitter:domain', content=locals.domain)
 
 block content
   include author
@@ -26,6 +33,3 @@ block prepend footer
       a(href='/archive.html') « Archives
     if nextPage
       a(href=nextPage.url) Next page »
-
-
-
