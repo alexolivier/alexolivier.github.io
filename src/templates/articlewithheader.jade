@@ -1,0 +1,44 @@
+
+extends layout
+
+block append vars
+  - bodyclass = 'article-detail article-with-header'
+  - headCss = 'background-image:url("'+page.metadata.header+'")'
+
+block prepend title
+  | #{ page.title + " - "}
+
+block metatags
+  meta(property='og:title', content=page.title)
+  meta(property='og:type', content='article')
+  meta(property='og:description', content=page.metadata.intro)
+  meta(property='og:url', content=locals.url+""+page.url)
+  meta(property='og:image' content=locals.profileImage)
+  meta(name='twitter:card', content='summary')
+  meta(name='twitter:site', content='@'+locals.social.twitter)
+  meta(name='twitter:title', content=page.title)
+  meta(name='twitter:description', content=page.metadata.intro)
+  meta(name='twitter:creator', content='@'+locals.social.twitter)
+  meta(name='twitter:image:src', content=locals.profileImage)
+  meta(name='twitter:domain', content=locals.domain)
+
+block customcss
+  link(rel='stylesheet', href='/css/articlewithheader.css')
+
+block header
+  include author
+  div#title
+    h1= page.title
+    p.date
+          span= moment.utc(page.date).format('DD. MMMM YYYY')
+    p.author
+      | #{ "Written by " }
+      mixin author(page.metadata.author)
+
+block content
+  article.article
+    section.content!= typogr(page.html).typogrify()
+
+block prepend footer
+  div.nav
+    a(href=contents.index.url) « Full blog
