@@ -1,5 +1,10 @@
 body.article-with-header .content-wrap {
   width: 80%; }
+  @media (max-width: 690px) {
+    body.article-with-header .content-wrap {
+      width: auto; }
+      body.article-with-header .content-wrap ul {
+        margin: 0 1.4em 1.4em 1.4em; } }
 body.article-with-header .header {
   display: block;
   background-size: cover;
@@ -48,3 +53,6 @@ body.article-with-header .article {
   width: 80%;
   display: block;
   margin: 0 auto; }
+  @media (max-width: 690px) {
+    body.article-with-header .article {
+      width: auto; } }
