@@ -3,7 +3,8 @@ title: My American Life - Part 1
 author: alexolivier
 intro: A few thoughts on my first week in NYC
 date: 2014-01-30
-template: article.jade
+header: header.jpg
+template: articlewithheader.jade
 ---
 
 So having been here in New York for nearly a week now, there are a few things that I have noticed:

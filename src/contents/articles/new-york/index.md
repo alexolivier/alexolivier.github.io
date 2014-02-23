@@ -3,7 +3,8 @@ title: Start spreading the news...
 author: alexolivier
 intro: Exciting times as I am about to move to the Big Apple for a few months for work
 date: 2014-01-18
-template: article.jade
+header: header.jpg
+template: articlewithheader.jade
 ---
 
 In 5 days, I am moving to New York! [Qubit](http://www.qubitproducts.com), the startup I work for, currently has a [sales office in Manhattan](http://www.qubitproducts.com/contact), and I have being sent over there to setup the client engineering team.

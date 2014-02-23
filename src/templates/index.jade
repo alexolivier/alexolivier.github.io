@@ -26,7 +26,7 @@ block content
           span= moment.utc(article.date).format('DD. MMMM YYYY')
         h2
           a(href=article.url)= article.title
-        section.content!= typogr(article.html).typogrify()
+        section.content!= typogr(article.metadata.intro).typogrify()
 
 block prepend footer
   div.nav
