@@ -17,12 +17,12 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: '../articles',
+          cwd: './contents',
           src: ['**/*.jpg'],
           ext: '.jpg'
         }, {
           expand: true,
-          cwd: '../articles',
+          cwd: './contents',
           src: ['**/*.png'],
           ext: '.png'
         }]
@@ -67,6 +67,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('default', ['wintersmith:preview']);
-  grunt.registerTask('build', ['clean:stuff', 'wintersmith:build', 'imagemin']);
+  grunt.registerTask('build', ['clean:stuff', 'imagemin', 'wintersmith:build']);
 
 };
