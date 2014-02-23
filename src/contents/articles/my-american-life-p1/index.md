@@ -1,5 +1,5 @@
 ---
-title: My American Life - Part 1
+title: My Second American Life - Part 1
 author: alexolivier
 intro: A few thoughts on my first week in NYC
 date: 2014-01-30

@@ -17,13 +17,11 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: './contents',
-          src: ['**/*.jpg'],
+          src: ['./contents/**/*.jpg'],
           ext: '.jpg'
         }, {
           expand: true,
-          cwd: './contents',
-          src: ['**/*.png'],
+          src: ['./contents/**/*.png'],
           ext: '.png'
         }]
       }
