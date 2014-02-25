@@ -120,6 +120,32 @@ hr {
   }
 }
 
+body.home > header {
+    display:block;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-image: url('../img/header.jpg');
+    margin:0;
+    min-height:350px;
+    z-index:1;
+    margin-bottom:2em;
+    .logo {
+      padding-top: 4em;
+      h1 {
+        margin-bottom: 1em;
+      }
+      a {
+        background: white;
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+      }
+      .description {
+        color: white;
+      }
+    }
+}
+
 body.article-detail > header {
   h1 {
     font-size: 2.5em;

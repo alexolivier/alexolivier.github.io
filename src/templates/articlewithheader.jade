@@ -13,13 +13,13 @@ block metatags
   meta(property='og:type', content='article')
   meta(property='og:description', content=page.metadata.intro)
   meta(property='og:url', content=locals.url+""+page.url)
-  meta(property='og:image' content=locals.profileImage)
+  meta(property='og:image' content=locals.url+""+page.url+""+page.metadata.header)
   meta(name='twitter:card', content='summary')
   meta(name='twitter:site', content='@'+locals.social.twitter)
   meta(name='twitter:title', content=page.title)
   meta(name='twitter:description', content=page.metadata.intro)
   meta(name='twitter:creator', content='@'+locals.social.twitter)
-  meta(name='twitter:image:src', content=locals.profileImage)
+  meta(name='twitter:image:src', content=locals.url+""+page.url+""+page.metadata.header)
   meta(name='twitter:domain', content=locals.domain)
 
 block customcss

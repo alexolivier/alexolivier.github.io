@@ -1,5 +1,8 @@
 extends layout
 
+block append vars
+  - bodyclass = 'home'
+
 block metatags
   meta(property='og:title', content=locals.name)
   meta(property='og:type', content='website')
