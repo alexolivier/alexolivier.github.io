@@ -17,9 +17,6 @@ block metatags
   meta(name='twitter:image:src', content=locals.profileImage)
   meta(name='twitter:domain', content=locals.domain)
 
-block customcss
-  link(rel='stylesheet', href='/css/main.css')
-
 block content
   include author
   each article in articles
